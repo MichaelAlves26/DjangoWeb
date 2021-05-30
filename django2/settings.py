@@ -15,7 +15,7 @@ import os
 import dj_database_url
 
 # Usando PostegreSQL com Heroku
-DATABASE = {
+DATABASES = {
     'default': dj_database_url.config()
 }
 
